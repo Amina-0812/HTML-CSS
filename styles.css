@@ -1,0 +1,86 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #081b29 ;
+    color: #ededed;
+}
+
+
+.header{
+    margin:0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.About{
+    height: 100vh;
+    background: url('arriere.jpg') no-repeat;
+    background-size: cover ;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.ab-content{
+    background-color: transparent;
+    max-width: 600px;
+
+}
+.ab-content h2{
+    background-color: blueviolet;
+    font-family: 'Roboto';
+
+}
+.ab-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.ab-content h3 {
+    font: size 32px;
+    font-weight: 700;
+    color: rgb(110, 168, 187);
+}
+
+
+.social-med{
+    position: absolute;
+    background: transparent;
+}
+.social-med a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(185, 118, 185);
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
